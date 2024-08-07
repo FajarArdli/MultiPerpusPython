@@ -1,0 +1,57 @@
+QLabel{
+    background-color: rgba(0,0,0,1);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+QLineEdit{
+    /* background-color: rgba(0,0,0,0.2); */
+    border: 1px solid rgba(50,100,255,0.8);
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(50,100,255,0.8);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(100,100,100);
+    color: black;
+}
+
+QPushButton:pressed{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(50,50,50);
+    color: black;
+}
+
+QCalendarWidget{
+    background-color: rgba(0,0,0,1);
+    color: white;
+    border: 1px solid white
+}
+
+.white{
+    background-color: white;
+    border: 1px solid rgba(50,100,255,0.8);
+    border-radius: 5px;
+    /* font-size: 15px; */
+}
+.black{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    /* font-size: 15px; */
+}
